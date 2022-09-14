@@ -19,9 +19,7 @@ code {
   margin-left: -135px;
   margin-bottom: -10px;
    float: left;
-    background-color: black;
-    text-align: center;
-    font-size: 60px;
+    
 
 }
 .Navigation{
@@ -38,4 +36,10 @@ margin-left: 100px;
 }
 .NavBar{
   margin-left:-10px ;
+}
+.contain{
+  margin: 50px;
+}
+.submit{
+  display: flex;
 }

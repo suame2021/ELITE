@@ -8,9 +8,9 @@ import Image from 'react-bootstrap/Image';
 const NavbarComponent = () => {
 
   return (
-    <Container classname='Navigation'>
+    <Container classname="Navigation">
       <Image src={logo} className="logo" />
-      <Navbar bg="dark" variant="dark">
+      <Navbar>
         <Container>
           <Nav className="NavBar">
             <Nav.Link href="#home">Home</Nav.Link>
