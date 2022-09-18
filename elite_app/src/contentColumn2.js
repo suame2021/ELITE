@@ -14,15 +14,19 @@ const ContentColumn = () => {
         {" "}
         How often do you want your waste to be picked up?
       </h4>
-      
-        <button className="btn-success">Weekly</button>
-        <button className="btn-success">Every Forthnight</button>
-      
+
+      <button className="btn-success">Weekly</button>
+      <button className="btn-success">Every Forthnight</button>
+
       <div className="content">
         <Row className="container-fluid mt-5">
           <Col xs={12} md={6} lg={6}>
             <div className="text">
               <CalenderComponent />
+            </div>
+            <div>
+              <button className="btn-success1">Confirm</button>
+              <button className="btn-success1">Call Agency</button>
             </div>
           </Col>
 

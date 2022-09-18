@@ -9,8 +9,10 @@ const CalenderComponent = () => {
 
       
 return (
-  <div className="app">
-    <h1 className="header">Get a schedule date</h1>
+  <div>
+    <div className="calheader">
+      <h1 className="header">Get a schedule date</h1>
+    </div>
 
     <div className="calendar-container">
       <Calendar onChange={setDate} value={date} />

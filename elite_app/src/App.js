@@ -7,19 +7,15 @@ import FooterComponent from "./footer";
 import ContentColumn2 from "./contentColumn2";
 
 
+
 function App() {
   return (
     <div className="App">
       <div>
-        <NavbarComponent/>
-        <ContentColumn2/>
-        <FooterComponent/>
-        
-
-
-
-
-        
+        <NavbarComponent />
+    
+        <ContentColumn2 />
+        <FooterComponent />
       </div>
     </div>
   );

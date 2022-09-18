@@ -58,8 +58,8 @@ margin-left: 70px;
 }
 .text{
   font-size: 30px;
-  margin-right: 50px;
-  margin-top: 25px;
+  margin-left: 180px;
+  margin-top: -50px;
 }
 .picked{
   color: white;
@@ -69,14 +69,7 @@ margin-left: 70px;
   outline: 1inch;
   margin-left: 50px;
 }
-/* .btn {
-  border: 2px solid black;
-  background-color: white;
-  color: black;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer; 
-} */
+
 
 
 .btn-success {
@@ -96,4 +89,33 @@ margin-left: 70px;
 .btn-success:hover {
   background-color: #04AA6D;
   color: white;
+}
+
+
+.btn-success1 {
+  border-color: green;
+  color: green;
+  font-style: bold;
+  margin-left: 50px;
+  width: 150px;
+  border-radius: 16px;
+  height: 50px;
+  background-color: black;
+  margin-top: 20px;
+  font-style: bold;
+  
+}
+
+.btn-success1:hover {
+  background-color: #04AA6D;
+  color: white;
+  border-color: green;
+}
+.content{
+  margin-top: 50px;
+  
+}
+.calheader{
+  margin-bottom: 35px;
+  margin-top: 30px
 }
