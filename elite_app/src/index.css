@@ -119,3 +119,43 @@ margin-left: 70px;
   margin-bottom: 35px;
   margin-top: 30px
 }
+.btnsub{
+  background-color: red  !important;
+  border-color: red;
+}
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 5;
+    color: green !important;
+}
+input[type=text] {
+  padding: 20px;
+  margin-top: 50px;
+    border-color:green;
+
+  
+}
+input[type=email] {
+  padding: 20px;
+  margin-top: 50px;
+    border-color:green;
+
+}
+input[type=password] {
+  padding: 20px;
+  margin-top:50px;
+  border-color:green;
+  
+}
+.input:focus{
+    margin-top: 20px !important;
+    border:  50px !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+ 
+}
+form{
+  margin-left: 20px;
+  margin-right: 50px;
+}
