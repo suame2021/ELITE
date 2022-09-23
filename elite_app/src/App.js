@@ -1,24 +1,79 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Home from "./homeComponent";
-import NavbarComponent from "./navbarComponent";
-import 'bootstrap/dist/css/bootstrap.css';
-import FooterComponent from "./footer";
-import ContentColumn2 from "./contentColumn2";
+import "bootstrap/dist/css/bootstrap.min.css";
+import HomeComponent from "./homeComponent";
 import LoginComponent from "./loginComponent";
-
+import ScheduleComponent from "./scheduleComponent";
+import LearningComponent from "./learningComponenet";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import ProfileComponent from "./profileComponent";
+import RegisterComponent from "./registerComponent";
+import NavbarComponent from "./navbarComponent";
+import ResetpasswordComponent from "./resetpasswordComponent";
+import PasswordComponent from "./passwordComponent";
 
 
 function App() {
   return (
     <div className="App">
-      <div>
-        {/* <NavbarComponent /> */}
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <NavbarComponent />
+          </Route>
+        </Switch>
 
-        <LoginComponent />
-        <ContentColumn2 />
-        <FooterComponent />
-      </div>
+        <Switch>
+          <Route exact path="/">
+            <HomeComponent />
+          </Route>
+        </Switch>
+
+        <Switch>
+          <Route exact path="/schedule">
+            <ScheduleComponent />
+          </Route>
+        </Switch>
+
+        <Switch>
+          <Route exact path="/learning">
+            <LearningComponent />
+          </Route>
+        </Switch>
+
+        <Switch>
+          <Route exact path="/profile">
+            <ProfileComponent />
+          </Route>
+        </Switch>
+
+        <Switch>
+          <Route exact path="/login">
+            <LoginComponent />
+          </Route>
+        </Switch>
+
+        <Switch>
+          <Route exact path="/register">
+            <RegisterComponent />
+          </Route>
+        </Switch>
+
+        
+
+
+
+
+        <Switch>
+          <Route exact path="/resetpassword">
+            <ResetpasswordComponent />
+          </Route>
+        </Switch>
+
+        <Switch>
+          <Route exact path="/otp">
+            <PasswordComponent />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

@@ -2,15 +2,20 @@ import logo from "./logo.svg";
 import "./App.css";
 import Home from "./homeComponent";
 import NavbarComponent from "./navbarComponent";
-import "bootstrap/dist/css/bootstrap.css";
-import FooterComponent from "./footer";
-import ContentColumn2 from "./contentColumn";
 
-const SchedukeCompoonent = () => {
-  return <div>
-    <NavbarComponent/>
-    <ContentColumn2/>
-  </div>;
+import "bootstrap/dist/css/bootstrap.css";
+import ContentColumn2 from "./contentColumn2";
+import FooterComponent from "./footerComponent";
+
+const ScheduleCompoonent = () => {
+  return (
+    <div>
+      <NavbarComponent />
+
+      <ContentColumn2 />
+      <FooterComponent />
+    </div>
+  );
 };
 
-export default SchedukeCompoonent;
+export default ScheduleCompoonent;

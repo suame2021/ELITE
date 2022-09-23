@@ -1,6 +1,10 @@
-.login{
+/* body{
+    font-family: 'Inter' !important;
+} */
 
-    
+.loginb{
+    background-color: #6CB632 !important;
+    margin-top: -70px;
 }
 
 
@@ -9,4 +13,90 @@
     font-style: bold;
     text-align: right;
     border-left: -50px;
+    font-size: 20px;
+    text-decoration: underline;
 }
+.btnlogin{
+    background-color: white !important;
+    color:#6CB632 !important;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 50px;
+    
+}
+.btnlogin:hover{
+    color: white !important;
+    background-color: #6CB632 !important;
+}
+.foot{
+    background-color: black;
+    
+    
+}
+.welcome{
+
+width: 772px;
+height: 48px;
+left: 350px;
+top: 181px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+margin-top: 100px;
+
+color: #FFFFFF;
+
+}
+
+.foot{
+    background-color: black;
+    
+    margin-bottom: 20px;
+    color:white;
+    
+}
+    
+.facebook{
+    width: 25px !important;
+    margin-right: 15px !important;
+    
+}
+.linkedin{
+    width: 25px !important;
+     margin-right: 15px !important;
+}
+.google{
+    width: 25px !important;
+     margin-right: 15px !important;
+}
+/* .social{
+    margin-bottom: 15px !important;
+    
+} */
+.cont{
+    margin-top: 25px !important;
+    font-size: 22px !important;
+}
+.welcome1{
+    color:white;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 40px;
+    
+    
+}
+
+.welcome{
+    margin-bottom: -20px;
+    size: 60px !important;
+    color:white;
+    text-align: left !important;
+        margin-left: 40px;
+
+    
+    
+}
+

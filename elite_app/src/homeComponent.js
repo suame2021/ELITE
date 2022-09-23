@@ -1,12 +1,14 @@
-const Home = () => {
+import ContentColumn from "./contentColumn";
+import FooterComponent from "./footerComponent";
+
+const HomeComponent = () => {
     return (  
-<div>
-
-
-    
-</div>
-
+        <div>
+        
+            <ContentColumn/>
+            <FooterComponent/>
+        </div>
     );
 }
  
-export default Home;
+export default HomeComponent;

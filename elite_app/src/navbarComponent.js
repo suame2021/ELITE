@@ -5,33 +5,51 @@ import logo from "./Images/logo.png";
 import Image from "react-bootstrap/Image";
 import { LinkContainer } from "react-router-bootstrap";
 
+
+
 const NavbarComponent = () => {
   return (
-    <Navbar expand="lg" className="nav">
-      <Container className="container-fluid" fluid>
-        <Container classname="Navigation">
-          <LinkContainer to="/">
-            <Navbar.Brand href="#home" id="logo">
-              <Image src={logo} className="logo" />
-            </Navbar.Brand>
-          </LinkContainer>
+    <div>
+      <LinkContainer to="/">
+        <Nav.Link>
+          <Image src={logo} className="logo" />
+        </Nav.Link>
+      </LinkContainer>
 
-          <Navbar>
-            <Container>
-              <Nav className="NavBar">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#features">Schedule</Nav.Link>
-                <Nav.Link href="#pricing">Learning</Nav.Link>
-                <Nav.Link href="#features">Profile</Nav.Link>
-                <Nav.Link href="#pricing">Notification</Nav.Link>
-                <Nav.Link href="#features">Login in</Nav.Link>
-                <Nav.Link href="#pricing">Sign Up</Nav.Link>
-              </Nav>
-            </Container>
-          </Navbar>
+      <Navbar>
+        <Container>
+          <Nav className="NavBar">
+            <LinkContainer to="/">
+              <Nav.Link className="home">Home</Nav.Link>
+            </LinkContainer>
+
+            <LinkContainer to="/schedule">
+              <Nav.Link className="schedule">Schedule</Nav.Link>
+            </LinkContainer>
+
+            <LinkContainer to="/learning">
+              <Nav.Link className="learning">Learning</Nav.Link>
+            </LinkContainer>
+
+            <LinkContainer to="/profile">
+              <Nav.Link className="profile">Profile</Nav.Link>
+            </LinkContainer>
+
+            <Nav.Link to="pricing" className="notice">
+              Notification
+            </Nav.Link>
+
+            <LinkContainer to="/login">
+              <Nav.Link className="login">Login in</Nav.Link>
+            </LinkContainer>
+
+            <LinkContainer to="/register">
+              <Nav.Link className="signup">Sign Up</Nav.Link>
+            </LinkContainer>
+          </Nav>
         </Container>
-      </Container>
-    </Navbar>
+      </Navbar>
+    </div>
   );
 };
 
