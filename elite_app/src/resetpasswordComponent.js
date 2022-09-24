@@ -35,7 +35,7 @@ const ResetPasswordComponent = () => {
           />
         </div>
       </div>
-      <LinkContainer to="home">
+      <LinkContainer to="/">
         <Nav.Link>
           <Button className="cont1">ENTER</Button>
         </Nav.Link>
