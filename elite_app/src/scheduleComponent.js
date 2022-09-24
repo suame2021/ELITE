@@ -1,6 +1,6 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
-import Home from "./homeComponent";
+// import Home from "./homeComponent";
 import NavbarComponent from "./navbarComponent";
 
 import "bootstrap/dist/css/bootstrap.css";

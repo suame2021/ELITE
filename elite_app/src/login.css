@@ -21,7 +21,7 @@
     color:#6CB632 !important;
     height: 50px;
     width: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 85px !important;
     
 }
 .btnlogin:hover{
@@ -30,6 +30,7 @@
 }
 .foot{
     background-color: black;
+    margin-bottom: -50px !important;
     
     
 }
@@ -80,6 +81,12 @@ color: #FFFFFF;
     margin-top: 25px !important;
     font-size: 22px !important;
 }
+.cont1{
+    margin-top: -100px !important;
+    font-size: 22px !important;
+    color: #6CB632  !important;
+    background-color: white !important;
+}
 .welcome1{
     color:white;
     font-size: 50px;
@@ -95,8 +102,9 @@ color: #FFFFFF;
     color:white;
     text-align: left !important;
         margin-left: 40px;
-
     
-    
+}
+.Navbar > .active > a { 
+    background-color: #6CB632 ; 
 }
 

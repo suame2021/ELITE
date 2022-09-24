@@ -1,7 +1,7 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+// import Button from 'react-bootstrap/Button';
+// import Card from 'react-bootstrap/Card';
 import imageFile from "./Images/vvv.png";
-import Image from "react-bootstrap/Image";
+// import Image from "react-bootstrap/Image";
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
 import "./App.css";

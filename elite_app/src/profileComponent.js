@@ -7,11 +7,13 @@ import Card from "react-bootstrap/Card";
 import imageFile from "./Images/image2.png";
 import FooterComponent from "./footerComponent";
 import NavbarComponent from "./navbarComponent";
+import { LinkContainer } from "react-router-bootstrap";
+import Nav from "react-bootstrap/Nav";
 
 function RegisterComponent() {
   return (
     <div>
-      <NavbarComponent/>
+      <NavbarComponent />
       <Row className="container-fluid mt-5">
         <Col xs={12} md={6} lg={3}>
           <div classname fcolumn></div>
@@ -21,7 +23,7 @@ function RegisterComponent() {
           <div classname fcolumn></div>
 
           <Form className="register">
-            <Form.Group className="mb-3" >
+            <Form.Group className="mb-3">
               <Form.Control type="text" placeholder="Username" />
             </Form.Group>
 
@@ -36,12 +38,11 @@ function RegisterComponent() {
               <Form.Control type="text" placeholder="Phone Number" />
             </Form.Group>
 
-            <Form.Group className="mb-3" >
-              <Form.Control type="text" placeholder="Address">
-                </Form.Control>{" "}
+            <Form.Group className="mb-3">
+              <Form.Control type="text" placeholder="Address"></Form.Control>
             </Form.Group>
 
-            <Form.Group className="mb-3" >
+            <Form.Group className="mb-3">
               <Form.Control
                 type="password"
                 placeholder="Reset Password"
@@ -55,14 +56,14 @@ function RegisterComponent() {
             <Card.Img variant="top" src={imageFile} />
           </Card>
 
-          <div>
-            <Button className="btnsub" type="submit">
-              Sign Out
-            </Button>
-          </div>
+          <LinkContainer to="login">
+            <Nav.Link>
+              <Button className="top">Sign Out</Button>
+            </Nav.Link>
+          </LinkContainer>
         </Col>
       </Row>
-      <FooterComponent/>
+      <FooterComponent />
     </div>
   );
 }

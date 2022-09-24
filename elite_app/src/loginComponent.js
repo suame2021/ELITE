@@ -9,6 +9,7 @@ import Linkedin from "./Images/Linkedin.svg";
 import Card from "react-bootstrap/Card";
 import { LinkContainer } from "react-router-bootstrap";
 import Nav from "react-bootstrap/Nav";
+import FooterComponent from "./footerComponent";
 
 
 
@@ -38,13 +39,11 @@ const LoginComponenet = () => {
                 ></Form.Control>
               </Form.Group>
 
-              
-        <LinkContainer to="otp">
-          <Nav.Link>
-              <p className="forget">Forget Password?</p>
-              </Nav.Link>
-        </LinkContainer>
-
+              <LinkContainer to="otp">
+                <Nav.Link>
+                  <p className="forget">Forget Password?</p>
+                </Nav.Link>
+              </LinkContainer>
             </Form>
           </div>
           <div>
@@ -60,15 +59,16 @@ const LoginComponenet = () => {
       </Row>
 
       <Row className="foot ">
-        <p className="cont">Or Continue With</p>
+        <p className="cont4">Or Continue With</p>
         <div className="social">
           <Card.Img className="google" src={google} />
           <Card.Img className="facebook" src={facebook} />
           <Card.Img className="linkedin" src={Linkedin} />
         </div>
 
-            <p className="cont">Already have an account? Login</p>
+        <p className="cont4">Already have an account? Login</p>
       </Row>
+      <FooterComponent />
     </div>
   );
 };

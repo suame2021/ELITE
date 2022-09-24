@@ -5,8 +5,6 @@ import logo from "./Images/logo.png";
 import Image from "react-bootstrap/Image";
 import { LinkContainer } from "react-router-bootstrap";
 
-
-
 const NavbarComponent = () => {
   return (
     <div>
@@ -19,6 +17,7 @@ const NavbarComponent = () => {
       <Navbar>
         <Container>
           <Nav className="NavBar">
+            
             <LinkContainer to="/">
               <Nav.Link className="home">Home</Nav.Link>
             </LinkContainer>

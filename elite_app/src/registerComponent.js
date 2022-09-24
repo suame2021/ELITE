@@ -61,14 +61,14 @@ function RegisterComponent() {
             
           </div>
           <div className="foot2">
-            <p className="cont">Or Continue With</p>
+            <p className="cont4">Or Continue With</p>
             <div className="social">
               <Card.Img className="google" src={google} />
               <Card.Img className="facebook" src={facebook} />
               <Card.Img className="linkedin" src={Linkedin} />
             </div>
 
-            <p className="cont">Already have an account? Login</p>
+            <p className="cont4">Already have an account? Login</p>
           </div>
         </Col>
       </Row>

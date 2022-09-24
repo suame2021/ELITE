@@ -325,16 +325,22 @@ margin-top: -35px !important;
     font-weight: bolder !important;
        font-family: 'Segoe UI'!important;
 
-
-  
 }
+/* .home:active{
+  background-color: green;
+} */
 
 .home:hover{
-  
-  
+   
   font-weight: bold !important;
 text-decoration: underline;  
 }
+.home:active{
+   
+  font-weight: bold !important;
+text-decoration: underline;  
+}
+
 
 .login{
   color: white!important;
@@ -349,6 +355,11 @@ text-decoration: underline;
     font-weight: bolder !important;
 
   
+}
+.login:active{
+   
+  font-weight: bold !important;
+text-decoration: underline;  
 }
 .signup{
   color: white!important;
@@ -366,6 +377,11 @@ text-decoration: underline;
 
   
 }
+.signup:active{
+   
+  font-weight: bold !important;
+text-decoration: underline;  
+}
 .schedule{
    font-family: 'Segoe UI'!important;
    font-weight: bolder !important;
@@ -379,6 +395,12 @@ text-decoration: underline;
     font-weight: bolder !important;
 
   
+}
+
+.schedule:active{
+   
+  font-weight: bold !important;
+text-decoration: underline;  
 }
 .learning{
 
@@ -395,6 +417,11 @@ text-decoration: underline;
 
   
 }
+.learning:active{
+   
+  font-weight: bold !important;
+text-decoration: underline;  
+}
 .profile{
 
  color: white!important;
@@ -408,14 +435,16 @@ text-decoration: underline;
   text-decoration: underline;  
 color: gre;
     font-weight: bolder !important;
-    
-
 
 
 color: #6CB632;
 
 
-  
+  }
+  .profile:active{
+   
+  font-weight: bold !important;
+text-decoration: underline;  
 }
 .notice{
    font-family: 'Segoe UI'!important;
@@ -430,6 +459,11 @@ color: #6CB632;
 
   font-weight: bolder !important;
   
+}
+.notice:active{
+   
+  font-weight: bold !important;
+text-decoration: underline;  
 }
 .imgl{
   border-radius: 50px !important;
@@ -498,3 +532,9 @@ margin-top: 7px;
         text-align: left;
       }
 
+.top{
+  background-color: red !important;
+  margin-left: -200px;
+  margin-top: 50px;
+  border-radius: 5px !important;
+}
